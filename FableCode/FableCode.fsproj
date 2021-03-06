@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Counter/Counter.fs" />
+    <Compile Include="App.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fable.Elmish.React" Version="4.0.0-alpha-1" />
+    <PackageReference Include="Fable.React.Native" Version="2.6.1" />
+    <PackageReference Include="Feliz" Version="1.35.0" />
+    <PackageReference Include="Feliz.UseElmish" Version="1.5.1" />
+  </ItemGroup>
+
+</Project>

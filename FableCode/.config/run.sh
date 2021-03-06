@@ -1,0 +1,1 @@
+dotnet fable watch --outDir ../ExpoCode/GeneratedCode/
